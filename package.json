@@ -6,9 +6,14 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
+    "dayjs": "^1.11.6",
+    "fast-average-color": "^9.4.0",
+    "hex-rgb": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "react-tailwindcss-datepicker": "^1.6.6",
+    "rgb-hex": "^4.1.0"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
