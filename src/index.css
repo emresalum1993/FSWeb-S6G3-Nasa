@@ -1,13 +1,10 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+
+button{
+  @apply focus:ring-offset-0 focus:ring-2 ring-blue-500 outline-none transition-all;
+  @apply active:ring-offset-2 active:ring-4 active:ring-blue-500 active:ring-offset-slate-800
 }
+ 
+@tailwind utilities;
